@@ -4,11 +4,11 @@ Time_Bound = input("Is the task time-bound? (yes or no): ")
 
 match Priority:
     case 'high': 
-       reminder = f"'{task}' is a {priority} priority task "
+        reminder = f"'{Task}' is a {Priority} priority task "
     case 'medium': 
-       reminder = f"'{task}' is a {priority} priority task "
+       reminder = f"'{Task}' is a {Priority} priority task "
     case 'low': 
-       reminder = f"'{task}' is a {priority} priority task "
+       reminder = f"'{Task}' is a {Priority} priority task "
         
 if Time_Bound == "yes":
     reminder += "that requires immediate attention today!"
