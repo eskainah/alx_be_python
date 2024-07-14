@@ -3,7 +3,7 @@ def safe_divide(numerator, denominator):
         num = float(numerator)
         d_nom = float(denominator)
         if denominator == 0:
-            raise ZeroDivisionError("You cannot divide by 0")
+            raise ZeroDivisionError("Error: Cannot divide by zero.")
         return f"The quotient is: {num/d_nom:.1f}"
     except ValueError:
         print(f"The {denominator} is invalid")
