@@ -4,8 +4,6 @@ def safe_divide(numerator, denominator):
         d_nom = float(denominator)
         if denominator == 0:
             raise ZeroDivisionError("Error: Cannot divide by zero.")
-        else:
-            quotient = num / d_nom
-        return f"The quotient is: {quotient:.1f}"
+        return f"The result of the division is {num / d_nom:.1f}"
     except ValueError:
         print(f"Error: Please enter numeric values only.")
