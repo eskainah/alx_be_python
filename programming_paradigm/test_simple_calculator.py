@@ -25,13 +25,13 @@ class testSimpleCalculator(unittest.TestCase):
 
     def test_division(self):
         """Test the division method."""
-        self.assertEqual(self.cal.divide(6, 3), 2)
-        self.assertEqual(self.cal.divide(-6, 3), -2)
-        self.assertEqual(self.cal.divide(-6, -3), 2)
-        self.assertEqual(self.cal.divide(5, 2), 2.5)
-        self.assertEqual(self.cal.divide(0, 1), 0)
-        self.assertEqual(self.cal.divide(1, 0), None)
-        self.assertEqual(self.cal.divide(0, 0), None)
+        self.assertEqual(self.calc.divide(6, 3), 2)
+        self.assertEqual(self.calc.divide(-6, 3), -2)
+        self.assertEqual(self.calc.divide(-6, -3), 2)
+        self.assertEqual(self.calc.divide(5, 2), 2.5)
+        self.assertEqual(self.calc.divide(0, 1), 0)
+        self.assertEqual(self.calc.divide(1, 0), None)
+        self.assertEqual(self.calc.divide(0, 0), None)
 
     if __name__ == "__main__":
         unittest.main()
