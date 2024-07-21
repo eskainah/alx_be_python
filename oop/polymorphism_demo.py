@@ -5,8 +5,8 @@ class Shape:
     
 class Rectangle(Shape):
     def __init__(self, length, width):
-        self.width = width
         self.length = length
+        self.width = width
 #cal rect
     def area(self):
         return self.length  * self.width
